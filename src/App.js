@@ -8,13 +8,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 import { useRef, useState } from 'react';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBQ1wDJ7d1h8Rga-8dZYGbsU_fbrx7uBls",
-  authDomain: "chit-chat-26021.firebaseapp.com",
-  projectId: "chit-chat-26021",
-  storageBucket: "chit-chat-26021.appspot.com",
-  messagingSenderId: "152023565082",
-  appId: "1:152023565082:web:8996455b21ad7970e422a3",
-  measurementId: "G-FQW7GWB9L6"
+/* firebase config */
 })
 
 const auth = firebase.auth();
